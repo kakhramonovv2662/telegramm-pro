@@ -1,0 +1,141 @@
+.hero {
+
+    &__wrapper {
+        background-color: #001a26 !important;
+    }
+
+    &__btn {
+        border-radius: 0 !important;
+        margin-left: 0 !important;
+        background-color: #001a26 !important;
+        width: 316px;
+        position: relative;
+        z-index: 1;
+        left: -10px;
+
+        &:hover {
+            background-color: #02121a !important;
+            opacity: 0.9;
+        }
+
+        &:active {
+            background-color: #02121a !important;
+            opacity: 0.7;
+        }
+    }
+
+    &__contant {
+        padding-top: 8px;
+    }
+
+    &__title {
+        position: relative;
+        z-index: 1;
+        left: -37px;
+        font-size: 12px !important;
+        color: white;
+        font-weight: bold;
+    }
+
+    &__text {
+        font-size: 9px !important;
+        padding-left: 10px;
+        color: gray;
+    }
+
+    &__button {
+        width: 30px;
+    }
+}
+
+.title {
+    padding-left: 45px;
+
+    &__name {
+        padding-left: 35px;
+    }
+
+    &__fans {
+        padding-left: 22px;
+    }
+
+    &__item {
+        padding-left: 0;
+    }
+}
+
+.contant {
+    background-image: url('../../img/tg-bg-img.jpg');
+    background-repeat: no-repeat;
+
+    &__wrapper {
+        background-color: #001a26 !important;
+    }
+
+    &__list {
+        margin-left: 0 !important;
+    }
+
+    &__btn {
+        border-radius: 0% !important;
+        color: gray !important;
+        background-color: #001a26 !important;
+        border: none !important;
+        margin-bottom: 10px !important;
+        margin-left: 10px;
+
+        &:hover {
+            background-color: #001a26 !important;
+            opacity: 0.9;
+        }
+
+        &:active {
+            background-color: #012536 !important;
+            opacity: 0.9;
+        }
+    }
+
+    &__date {
+        font-size: 8px;
+        color: gray;
+        position: relative;
+        bottom: 55px;
+        left: 150px;
+    }
+
+    &__num {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-right: auto !important;
+        font-size: 8px;
+        background-color: #012738 !important;
+        position: relative !important;
+        z-index: 1 !important;
+        top: -25px !important;
+        left: 140px !important;
+        right: 0;
+        text-align: center !important;
+    }
+
+    &__wrappers {
+        margin-left: 27px;
+    }
+
+}
+
+.date {
+    margin-left: 40px;
+}
+
+.oclock {
+    margin-left: 28px;
+}
+
+.goal-date {
+    margin-left: 55px;
+}
+
+.items {
+    margin-left: 30px;
+}
